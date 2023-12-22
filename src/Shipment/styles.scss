@@ -1,0 +1,142 @@
+
+.bold-text{
+    font-weight: 600;
+}
+
+.progress-bar-green{
+  background: green !important;
+}
+
+.progress-bar-yellow{
+  background: #FFC107 !important;
+}
+
+.progress-bar-red{
+  background: red !important;
+}
+
+/* Add this to your CSS or styles file */
+.custom-table {
+    border-collapse: separate;
+    border-spacing: 0 8px; /* Adjust the vertical spacing as needed */
+    border: 1px solid #dee2e6; /* Add border to the entire table */
+    border-radius: 8px; /* Set the desired border-radius for rounded corners */
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    border: none; /* Remove default cell borders */
+  }
+  
+  .custom-table th {
+    color: #555555;
+    background-color: #f8f9fa; /* Light grey background color */
+    border-bottom: 1px solid #dee2e6; /* Add bottom border for horizontal lines */
+  }
+
+
+  .wrapper {
+    // background: #ffd800;
+    width: 844px;
+    height: 100px;
+  }
+  .margin-area {
+    position: relative;
+    text-align: center;
+    // font-family: "Trebuchet", sans-serif;
+    font-size: 12px;
+    margin: 0 20px;
+  }
+  .dot {
+    height: 24;
+    width: 24;
+    position: absolute;
+    background: #000;
+    border-radius: 50%;
+    top: 10px;
+    color: #fff;
+    line-height: 24px;
+    z-index: 9999;
+    &.one {
+      left: 65px;
+      background:white;
+    }
+    &.two {
+      left: 280px;
+      background: white;
+    }
+    &.three {
+      left: 490px;
+      background: white;
+      color: white;
+    }
+    &.four {
+      left: 700px;
+      background: white;
+      color: white;
+    }
+  }
+  .progress-bar {
+    position: absolute;
+    height: 5px;
+    width: 25%;
+    top: 20px;
+    left: 10%;
+    background: #bbb;
+    // &.first {
+    //   background: green;
+    // }
+    &.second {
+      left: 37%;
+    }
+    &.third {
+      left: 63%;
+    }
+  }
+  .message {
+    position: absolute;
+    height: 60px;
+    width: 170px;
+    padding: 10px;
+    margin: 0;
+    left: -8px;
+    top: 0;
+    color: #000;
+    &.message-1 {
+      top: 40px;
+      color: #000;
+    }
+    &.message-2 {
+      top: 40px;
+      left: 210px;
+    }
+    &.message-3 {
+      top: 40px;
+      left: 420px;
+      color: #000;
+    }
+    &.message-4 {
+      top: 40px;
+      left: 630px;
+    }
+  }
+  .status {
+    position: absolute;
+    width: 700px;
+    left: -600px;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    &.code {
+      top: 70px;
+    }
+  }
+  a {
+    color: #0C84D9;
+    text-decoration: none;
+    font-weight: bold;
+    &:hover, &:focus {
+      text-decoration: underline;
+    }
+  }
+      
